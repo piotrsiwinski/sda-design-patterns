@@ -9,6 +9,7 @@ public class Reservation {
   private String city;
   private double price;
 
+
   private Reservation() {
   }
 
