@@ -18,12 +18,7 @@ public class Playground {
     List<Person> people = Arrays.asList(student, kierownik, dyrektor);
     // sortowanie z uzyciem Collections.sort
     Collections.sort(people);
-    people.sort(new Comparator<Person>() {
-      @Override
-      public int compare(Person o1, Person o2) {
-        return o1.getName().compareTo(o2.getName());
-      }
-    });
+    people.sort((o1, o2) -> o1.getName().compareTo(o2.getName()));
 
 //    int compare(T o1, T o2);
     people.sort((person1, person2) -> person1.getName().compareTo(person2.getName()));
