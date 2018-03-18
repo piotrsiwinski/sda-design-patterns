@@ -4,7 +4,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Scanner;
-import java.util.Set;
 
 public class WordCounter {
 
@@ -17,7 +16,6 @@ public class WordCounter {
     lines.forEach(System.out::println);
     List<String> words = FileHelper.splitLinesIntoWords(lines);
     Map<String, Integer> wordsMap = StringHelper.getWordsMap(words);
-//    Set<Entry<String, Integer>> entries = wordsMap.entrySet();
 
     for (Entry<String, Integer> entry :  wordsMap.entrySet()) {
       System.out.println(entry.getKey() + " ------> " + entry.getValue());
