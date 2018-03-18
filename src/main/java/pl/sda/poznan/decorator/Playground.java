@@ -1,7 +1,6 @@
 package pl.sda.poznan.decorator;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import pl.sda.poznan.decorator.shapedecorator.Circle;
 import pl.sda.poznan.decorator.shapedecorator.ColoredCircle;

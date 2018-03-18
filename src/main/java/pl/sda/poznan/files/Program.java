@@ -2,9 +2,6 @@ package pl.sda.poznan.files;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.Objects;
-import java.util.Optional;
 import java.util.Scanner;
 
 /**

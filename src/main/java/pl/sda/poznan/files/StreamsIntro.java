@@ -1,12 +1,9 @@
 package pl.sda.poznan.files;
 
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.InputStream;
-import java.util.List;
 
 public class StreamsIntro {
 
