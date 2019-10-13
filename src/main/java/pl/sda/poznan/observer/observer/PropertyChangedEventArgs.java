@@ -1,4 +1,4 @@
-package pl.sda.poznan.observer;
+package pl.sda.poznan.observer.observer;
 
 public class PropertyChangedEventArgs<T> {
 

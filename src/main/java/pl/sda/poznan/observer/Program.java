@@ -1,5 +1,8 @@
 package pl.sda.poznan.observer;
 
+import pl.sda.poznan.observer.observer.StockObserver;
+import pl.sda.poznan.observer.subject.Stock;
+
 public class Program {
 
   public static void main(String[] args) {

@@ -1,4 +1,7 @@
-package pl.sda.poznan.observer;
+package pl.sda.poznan.observer.subject;
+
+import pl.sda.poznan.observer.observer.Observer;
+import pl.sda.poznan.observer.observer.PropertyChangedEventArgs;
 
 import java.util.ArrayList;
 import java.util.List;

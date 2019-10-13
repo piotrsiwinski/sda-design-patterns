@@ -1,4 +1,6 @@
-package pl.sda.poznan.observer;
+package pl.sda.poznan.observer.subject;
+
+import pl.sda.poznan.observer.observer.PropertyChangedEventArgs;
 
 // klasa Stock jest obserwowalna (dajca sie obserwowac)
 public class Stock extends Observable<Stock> {

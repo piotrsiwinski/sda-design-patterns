@@ -1,4 +1,6 @@
-package pl.sda.poznan.observer;
+package pl.sda.poznan.observer.observer;
+
+import pl.sda.poznan.observer.subject.Stock;
 
 public class StockObserver implements Observer<Stock> {
 
